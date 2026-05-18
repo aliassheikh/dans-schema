@@ -22,8 +22,14 @@ repo_name: DANS-KNAW/dans-schema
 repo_url: https://github.com/DANS-KNAW/dans-schema
 
 nav:
-  - Manual: index.md
-  - ⇒ DANS Data Station Architecture: arch.md
+  - Manual:
+      - Description: index.md
+      - Context: context.md
+  - Development:
+      - Overview: dev.md
+
+extra:
+  easy: https://dans.knaw.nl/nl/data-diensten/easy/
 
 plugins:
   - markdownextradata
